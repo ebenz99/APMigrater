@@ -25,7 +25,9 @@ Your guide for moving your music from Apple Music to Spotify (without the annoyi
 14. On the web page that displays, hit agree.
 15. The next page will look like an error. It probably isn't. Copy that entire URL and paste it into the prompt displayed on your command line (if you're not being prompted for a URL, something's gone wrong) and hit enter
 16. Things should be running now. This may take a while. Double checking means that with the artist & song parameters given, no songs were found, so it's just checking with the song name. If no number is displayed before moving on to the next song, no song was found for that data. Its data will be stored in orphans.txt
-17. That's it, folks! If you've got any errors, look 'em up, and if you can't figure them out, leave me a comment on here. Hopefully though, when you check your playlist (a refresh is sometimes necessary) it should have all of your songs minus the orphans. The orphan rate is only about 2% though, so they shouldn't be too bad to add manually. The mis-hit rate is <1%, these should be minimal as well.
+
+
+That's it, folks! If you've got any errors, look 'em up, and if you can't figure them out, leave me a comment on here. Hopefully though, when you check your playlist (a refresh is sometimes necessary) it should have all of your songs minus the orphans. The orphan rate is only about 2% though, so they shouldn't be too bad to add manually. The mis-hit rate is <1%, these should be minimal as well.
 
 
 Hope this helped!
