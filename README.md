@@ -16,8 +16,8 @@ Your guide for moving your music from Apple Music to Spotify (without the annoyi
 9. Once finished with set-up, click "edit settings". We only really care about the redirect URI. If you already have a redirect URI in mind, enter that here, and in adder.py at the redirect_url parameter. If not, just enter http://localhost:3000/ in the spotify settings. This is the default URI in adder.py and will work just fine. Save the changes [to both].
 9. Copy your client_id and client_secret into your adder.py file on your computer into their respective variables (Command-F is your friend here)
 9. Copy your spotify username into the username variable.
-10. In your spotify, create or find the private playlist you want to add songs to\*. Copy and paste its name into the "playlist_name" variable in adder.py
-11. In the URL of that playlist (you may have to use spotify in your browser for this), copy the string after the final slash. It should probably look something like * 4TDOprH7yaCBiz81JGcxWI *. Paste it into the playlist_id variable in adder.py
+10. In your spotify, create or find the private playlist you want to add songs to.\* Copy and paste its name into the "playlist_name" variable in adder.py
+11. In the URL of that playlist (you may have to use spotify in your browser for this), copy the string after the final slash. It should probably look something like *4TDOprH7yaCBiz81JGcxWI*. Paste it into the playlist_id variable in adder.py
 12. In commandline, run "pip install spotipy". Troubleshoot as (hopefully not) needed
 12. Command-F for the tilde (~) character in adder.py. None should remain now.
 13. Run adder.py with "python3 adder.py". THIS WON'T WORK YET - it's time for authentification!
