@@ -20,6 +20,7 @@ Your guide for moving your music from Apple Music to Spotify (without the annoyi
 11. In the URL of that playlist (you may have to use spotify in your browser for this), copy the string after the final slash. It should probably look something like *4TDOprH7yaCBiz81JGcxWI*. Paste it into the playlist_id variable in adder.py
 12. In commandline, run "pip install spotipy". Troubleshoot as (hopefully not) needed
 12. Command-F for the tilde (~) character in adder.py. None should remain now.
+12. The current code will add your first 1000 songs. Edit the final lines as needed (in increments of 100--Spotify won't take more) to make it work for more songs.
 13. Run adder.py with "python3 adder.py". THIS WON'T WORK YET - it's time for authentification!
 14. On the web page that displays, hit agree.
 15. The next page will look like an error. It probably isn't. Copy that entire URL and paste it into the prompt displayed on your command line (if you're not being prompted for a URL, something's gone wrong) and hit enter
