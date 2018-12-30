@@ -1,9 +1,9 @@
-#APMigrater
+# APMigrater
 Your guide for moving your music from Apple Music to Spotify (without the annoying Apple Music API)
 
 *Disclaimer: this tutorial requires the use of a Mac computer. Without one, you'll have to find a way to copy your entire songlist into a text file. If you can do this without copy and paste, using this tutorial probably isn't worth your time anyway.*
 
-##Directions
+## Directions
 
 1. Download this repository onto your computer
 2. Open Apple Music. Click one song, and use shift to select all songs in library (or all songs you want to move). Click command-C to copy them.
@@ -17,7 +17,7 @@ Your guide for moving your music from Apple Music to Spotify (without the annoyi
 9. Copy your client_id and client_secret into your adder.py file on your computer into their respective variables (Command-F is your friend here)
 9. Copy your spotify username into the username variable.
 10. In your spotify, create or find the private playlist you want to add songs to\*. Copy and paste its name into the "playlist_name" variable in adder.py
-11. In the URL of that playlist (you may have to use spotify in your browser for this), copy the string after the final slash. It should probably look something like *4TDOprH7yaCBiz81JGcxWI*. Paste it into the playlist_id variable in adder.py
+11. In the URL of that playlist (you may have to use spotify in your browser for this), copy the string after the final slash. It should probably look something like * 4TDOprH7yaCBiz81JGcxWI *. Paste it into the playlist_id variable in adder.py
 12. In commandline, run "pip install spotipy". Troubleshoot as (hopefully not) needed
 12. Command-F for the tilde (~) character in adder.py. None should remain now.
 13. Run adder.py with "python3 adder.py". THIS WON'T WORK YET - it's time for authentification!
